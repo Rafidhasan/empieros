@@ -7,7 +7,6 @@ $color-neutral-med: #ddd;
 $headings-font: 'Saira Semi Condensed', sans-serif;
 
 @mixin icon-box{
-    background-color: #fff;
     box-shadow: $shadow;
     padding: $box-padding;
 }
@@ -45,6 +44,7 @@ input, button{
 
 textarea{
     border: none;
+    color: transparent !important;
 }
 
 /*-----Styles-----*/
