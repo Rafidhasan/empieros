@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/form.css">
 
     <!-- script
     ================================================== -->
@@ -709,7 +710,7 @@
         </div> <!-- end section-header -->
 
         <div class="row contact-main" data-aos="fade-up">
-            <div class="col-full">
+            <div class="col-1-2">
                 <p class="contact-email">
                     <a href="mailto:#0">sayhello@sublime.com</a>
                 </p>
@@ -738,6 +739,38 @@
                         <a href="#0"><i class="fab fa-dribbble"></i></a>
                     </li>
                 </ul>
+            </div>
+
+            <div class="col-1-2">
+                <form action="" id="contact-form">
+                    <div class="input mb">
+                        <div class="hidden"><label for="name" class="required">Name</label></div>
+                        <div class="icon-container"><input type="text" name="name" id="name" placeholder="Name" class="icon-content" required></div>
+                    </div>
+                    
+                    <div class="input mb">
+                        <div class="hidden"><label for="email" class="required">Email</label></div>
+                        <div class="icon-container"><input type="email" name="email" id="email" placeholder="Email" class="icon-content" required></div>
+                    </div>
+                    
+                    <div class="input mb">
+                        <div class="hidden"><label for="subject" class="required">Subject</label></div>
+                        <div class="icon-container">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" class="icon-content" required>
+                        </div>
+                    </div>
+                    
+                    <div class="input mb">
+                        <div class="hidden"><label for="message" class="required">Message</label></div>
+                        <div class="icon-container"><textarea name="message" id="message" cols="10" rows="5" placeholder="Message..." class="icon-content" required></textarea></div>
+                    </div>
+                    
+                    <div class="input mb">
+                        <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                            Message us
+                        </a>
+                    </div>
+                </form>
             </div>
         </div>
 

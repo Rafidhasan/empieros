@@ -3590,11 +3590,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-main .contact-email {
-  margin-bottom: 3.6rem;
+  margin-bottom: 1.6rem;
 }
 
 .contact-email a {
-  font-size: 9rem;
+  font-size: 5rem;
   font-weight: 700;
   line-height: 1.2;
   color: #FFFFFF;
